@@ -1,0 +1,32 @@
+.section-ready{
+  background-color: #A9AE8D;
+  color:#F6F4EC;
+  max-height: 304px;
+  flex-shrink: 0;
+}
+.container-ready{
+  min-width:456px;
+  display:flex;
+  padding :69px 69px 70px;
+}
+.section-ready-content{
+display:flex;
+flex-direction: column;
+}
+
+.ready-to-get{
+  margin-bottom:15px;
+  opacity: 0.8;
+  font-size: 18px;
+  
+}
+.meet-the-moonson{
+  margin-bottom: 30px;
+
+  font-size: 33px;
+}
+
+.btn-text{
+  color:#F6F4EC;
+  font-size: 16px;
+}

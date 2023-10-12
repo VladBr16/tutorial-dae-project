@@ -30,6 +30,21 @@ visually-hidden {
 
 /* GRID */
 
+.container{
+display: block;
+/* padding-left:50px */
+
+}
+
+/* .container {
+  
+  padding-right: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+} */
+
 
 .container-wide{
   width: 1536px;
