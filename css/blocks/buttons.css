@@ -1,0 +1,71 @@
+/* navlist */
+.nav-list a:hover{
+  color: goldenrod;
+}
+
+
+/* home content */
+
+.home-btn{
+  /* display: flex;
+  justify-content: center;
+  align-items: end; */
+  margin-bottom: 65px;
+}
+.text-btn:hover{
+  color:goldenrod;
+}
+.btn, a.btn {
+  background-color: #B36050;
+  transition: color 0.2s ease;
+  
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-big, a.btn-big{
+  min-height: 65px;
+}
+.btn-big, a.btn-big:hover{
+  background-color:#91635a;
+
+}
+.text-btn{
+  color:white;
+  font-size: 17px;
+  font-weight: 400;
+}
+.text-btn {
+  padding:9px 20px 10px 20px;
+}
+
+/* section-ready */
+
+.btn-text:hover{
+  color: rgb(241, 191, 64);
+}
+
+/* shop-sets */
+.set-btn:hover{
+  color:#B36050;
+}
+
+/* info */
+.info-more:hover{
+  color:goldenrod;
+}
+/* wrapper-follow */
+.wrapper-text:hover{
+  color:goldenrod;
+}
+
+/* footer */
+
+.footer-list a:hover{
+  color:goldenrod
+}
+
+.sub-btn:hover{
+  color:goldenrod;
+}

@@ -25,7 +25,10 @@ flex-direction: column;
 
   font-size: 33px;
 }
-
+.btn-ready{
+  max-width: 77px;
+  height: 28px;
+}
 .btn-text{
   color:#F6F4EC;
   font-size: 16px;

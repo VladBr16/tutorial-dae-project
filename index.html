@@ -10,18 +10,21 @@
 <body>
   <header class="header">
     <div class="header-content ">
-
       <div class ="header-advert">
-      <h4 class = "header-advert-text">
-        <p class="header-advertising">
-          Free Shipping on US Orders Over $60
-        </p>
-      </h4>
+      <button class= "header-advert-btn" type="button">
+          <a href="#"><p class="header-advertising">Free Shipping on US Orders Over $60</p></a>
+      </button>
     </div>
-
     <div class="header-nav-container">
       
         <div class="header-container">
+
+          <div class="header-nav-mobile">
+            <button type="button" class="mobile-nav-button">
+            <span class="mobile-nav-button__icon"></span>
+          </button>
+          </div>
+
         <div class="header-nav-left">
           <ul>
             <li class="nav-list"><a href="nav-link">Shop</a></li>
@@ -43,11 +46,7 @@
         </ul>
       </div>
       </div>
-      
-      
-      
     </div>
-
     <div class="header-main-page">
       <div class="container">
         <div class="home-content">
@@ -61,14 +60,23 @@
         <div class="header-background">
         <img src="./img/header/titul-photo.jpg" alt="titul-dae-photo">
       </div>
-      
-      
-      
-      
     </div>
     </div>
-    
+
   </header>
+  <div class="mobile-nav">
+    <div class="navigation">
+      <img class="mobile-nav-logo" src="./img/header/dae-logo.svg" alt="logo">
+      <nav class="mobile-nav-list">
+        <ul >
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">The Edit</a></li>
+          <li><a href="#">Our Story</a></li>
+          <li><a href="#">Reviews</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
 
   <section class="section-ready">
     <div class="container-ready">
@@ -135,6 +143,111 @@
     </div>
   </section>
 
+  <section class="set">
+    <div class="container">
+      <div class="set-container">
+      <div class="set-row">
+        <div class="set-picture">
+          <img src="./img/sets/sets.jpg" alt="sets-candles">
+        </div>
+        <div class="set-text-btn">
+          <div class="set-text">
+            <p class="set-text-p">FEEL THE WARMTH OF THE DESERT WHENEWER YOU ARE</p>
+          </div>
+          <button class="set-btn">Shop Sets</button>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+  </section>
   
+  <section class="info">
+    <div class="container-info">
+      <div class="container-info-content">
+        
+        <div class="photo-main-sec">
+          <img src="./img/info/info-2.jpg" class="photo-sec" alt="woman">
+        </div>
+        <div class="photo-main">
+          <img src="./img/info/info-1.jpg" class = "photo-main-img"alt="smiling-woman">
+        </div>
+        <div class="info-main">
+            <h2 class="info-heading">Meet Dae</h2>
+          <p class="info-text">We’re a haircare line based in sunny Arizona. 
+            Our products are made up of the many things that make our home special, 
+            including the scent of orange blossoms in the air, colors of majestic sunsets 
+            and nourishing ingredients derived from desert botanicals. We believe haircare
+            doesn’t have to be complicated and aimed to make a line that is simple and 
+            effective. We hope that dae plays a special role in your everyday hair routine from sunrise to sunset and allows you to feel the warmth of the desert wherever you are.</p>
+          <button class="info-more">Read More</button>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <section class="wrapper">
+    <div class="wrapper-container">
+      <div class="wrapper-content">
+        <button class="wrapper-follow">
+          <a href="#" class="btn-follow">
+            <p class="wrapper-text">Follow Us @Daehair</p>
+          </a>
+        </button>
+      </div>
+      <div class="wrapper-pictures">
+          <div class="wrapper-picture">
+            <img src="./img/wrapper/1.jpg" class="wrp" alt="">
+          </div>
+          <div class="wrapper-picture">
+            <img src="./img/wrapper/2.jpg" class="wrp" alt="">
+          </div>
+          <div class="wrapper-picture">
+            <img src="./img/wrapper/3.jpg"  class="wrp"alt="">
+          </div>
+          <div class="wrapper-picture">
+            <img src="./img/wrapper/4.jpg" class="wrp" alt="">
+          </div>
+          <div class="wrapper-picture">
+            <img src="./img/wrapper/5.jpg" class="wrp" alt="">
+          </div>
+          <div class="wrapper-picture">
+            <img src="./img/wrapper/6.jpg" class="wrp" alt="">
+          </div>
+        </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-list">
+        <ul id="list" class="ull-list">
+          <li class="list"><a href="#">Sustainability</a></li>
+          <li class="list"><a href="#">Contact Us</a></li>
+          <li class="list"><a href="#">FAQ</a></li>
+          <li class="list"><a href="#">Careers</a></li>
+          <li class="list"><a href="#">Privacy Policy</a></li>
+          <li class="list"><a href="#">CA Privacy Rights</a></li>
+          <li class="list"><a href="#">Terms of Use</a></li>
+          <li class="list"><a href="#">Newsletter</a></li>
+        </ul>
+      </div>
+      <div class="footer-info">
+        <div class="footer-text">
+          <h3 class="footer-desc">ONLY GOOD HAIR DAES AHEAD—AND 10% OFF YOUR FIRST ORDER</h3>
+          <button class="subscribe">
+            <a href="#" class="sub-btn">SUBSCRIBE</a>
+          </button>
+          <h4 class="footer-address">Want to shop in person? Swing by our showroom.<br> 
+            M-F, 10am-2pm 5051 E Indigo St, Suite 105, Mesa, AZ 85205
+          </h4>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p class="dae">© 2021 <strong>dae</strong>. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="./js/index.js"></script>
 </body>
 </html>
